@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Checkpoints & Models (Không commit file weights nặng lên Git)
+checkpoints/*.pt
+checkpoints/*.pth
+checkpoints/*.ckpt
+checkpoints/*.tar.gz
+checkpoints/*.zip
+
+# Kết quả demo / log
+demo_assets/*_sequence/
+demo_assets/output_*.png
+*.log
+
+# Môi trường ảo & Editor
+.venv/
+env/
+venv/
+.idea/
+.vscode/
+*.swp
